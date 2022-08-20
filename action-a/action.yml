@@ -1,4 +1,5 @@
 name: "Hello Actions"
+on: push
 description: "Greet someone"
 author: "octocat@github.com"
 
