@@ -1,6 +1,7 @@
 jobs:
   build:
     name: Hello world action
+    on: push
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
