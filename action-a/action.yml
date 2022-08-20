@@ -1,5 +1,9 @@
 name: "Hello Actions"
-on: push
+on:
+  push:
+    branches: [ "tonnytg-patch-1" ]
+  pull_request:
+    branches: [ "main" ]
 description: "Greet someone"
 author: "octocat@github.com"
 
